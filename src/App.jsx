@@ -19,15 +19,25 @@ function App() {
           <img src={labImage} className="logo react" alt="Custom logo" />
         </a>
       </div>
+      
       <h1>Vite + Jeff</h1>
+
+      <Greeting />
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+
+        <CounterStatus count={count} />
+
+        <Quote />
+
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
+
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
