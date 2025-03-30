@@ -2,6 +2,9 @@ import { useState } from 'react'
 import labImage from './assets/lab9.5img.png'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Greeting from './components/Greeting'
+import CounterStatus from './components/CounterStatus'
+import Quote from './components/Quote'
 
 function App() {
   const [count, setCount] = useState(0)
